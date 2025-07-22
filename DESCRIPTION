@@ -1,0 +1,17 @@
+Package: BSgenome.Hsapiens.scrHLAtyping.imgtHLA
+Title: IMGT/HLA 3-field mRNA BSgenome
+Description: IMGT/HLA three-field mRNA reference sequences
+Version: 1.0.0
+Author: Sami B. Kanaan
+Maintainer: Sami B. Kanaan <kanaan.sb@outlook.com>
+Depends: R (>= 3.5.0), BSgenome (>= 1.66.3)
+Imports: BSgenome
+Suggests: 
+License: Artistic-2.0
+organism: Homo sapiens
+common_name: human
+genome: imgtHLA
+provider: scrHLAtyping
+release_date: 2025-06-20
+source_url: -- information not available --
+biocViews: AnnotationData, Genetics, BSgenome, Immunogenetics
