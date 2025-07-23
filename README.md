@@ -12,8 +12,8 @@ remotes::install_github("https://github.com/furlan-lab/BSgenome.Hsapiens.scrHLAt
 ```
 
 ## Usage 
-```
 In your R console:
+```
 library(BSgenome.Hsapiens.scrHLAtyping.imgtHLA)
 options(ucscChromosomeNames = FALSE)
 ```
