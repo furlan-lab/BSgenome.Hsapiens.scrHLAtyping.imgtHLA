@@ -2,7 +2,7 @@
 This is the IMGT/HLA coding sequence reference (mRNA) (version 3.60.0 - 2025-04) forged into a `BSgenome` class object for ease of manipulation using bioconductor tools in R. 
 
 **Important notes:**
-1. The IMGT/HLA reference is ***3-field reduced*** using the pipeline from [scrHLAtag](https://github.com/furlan-lab/scrHLAtag/blob/main/scripts/generation_refs.sh), version 0.1.7. This is because scrHLAtyping currently is designed for single cell RNA data, where alleles varying in the nomenclature's 4th field cannot be distinguished. 
+1. The IMGT/HLA reference is ***3-field reduced*** using the [pipeline from scrHLAtag](https://github.com/furlan-lab/scrHLAtag/blob/main/scripts/generation_refs.sh), version 0.1.7. This is because scrHLAtyping currently is designed for single cell RNA data, where alleles varying in the nomenclature's 4th field cannot be distinguished. 
 2. Following the format used in [scrHLAtag](https://github.com/furlan-lab/scrHLAtag), the `|` character is used as a separator in the HLA nomenclature instead of the `*`.
 
 ## Installation 
